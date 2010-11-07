@@ -12,7 +12,7 @@
  * myplayer.play(); // start the video
  * 
  * @author DracoBlue <a href="mailto:JanS@DracoBlue.de">JanS@DracoBlue.de</a>
- * @version 1.0
+ * @version 1.0.1
  */
 /**
  * The video has been stopped by the user or ended.
@@ -210,7 +210,7 @@ var YtMooPlayer = new Class(
 
 		flashvars.wMode='transparent';
 
-		this.ytplayer = new Swiff('http://www.youtube.com/apiplayer?enablejsapi=1&playerapiid='+this.playerPrefix+'player', {
+		this.ytplayer = new Swiff('http://www.youtube.com/apiplayer?enablejsapi=1&version=3&playerapiid='+this.playerPrefix+'player', {
 			
 			id        : this.playerPrefix+'player',
 			width     : this.options.width,
