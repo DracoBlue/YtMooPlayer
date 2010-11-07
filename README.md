@@ -7,6 +7,8 @@ player with mootools.
 - Copyright 2009-2010 by DracoBlue
 - Version: 1.0.1
 - Date: 2010/11/07
+- Showcase: <http://dracoblue.net/showcase/ytmooplayer-js/>
+- API-Docs: <http://dracoblue.net/apidoc/ytmooplayer-js/1-0/>
 - Official Site: <http://dracoblue.net>
 
 # Changelog
